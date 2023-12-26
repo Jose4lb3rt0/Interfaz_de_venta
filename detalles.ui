@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>754</width>
+    <height>715</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(110, 136, 161);</string>
+  </property>
+  <widget class="QLineEdit" name="line_pro">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>149</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    border: 2px solid gray; /* Borde*/
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 5px; /* Espaciado interno */
+    background-color: rgb(84, 84, 84); /* Fondo gris claro */
+       color: rgb(255, 255, 255); /* Color del texto */
+}
+
+QLineEdit:focus {
+    border: 2px solid #45a049; /* Cambio de color del borde al obtener el foco */
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>240</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>Cantidad del producto:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_can">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>230</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    border: 2px solid gray; /* Borde*/
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 5px; /* Espaciado interno */
+    background-color: rgb(84, 84, 84); /* Fondo gris claro */
+        color: rgb(255, 255, 255); /* Color del texto */
+}
+
+QLineEdit:focus {
+    border: 2px solid #45a049; /* Cambio de color del borde al obtener el foco */
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_id">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>109</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    border: 2px solid gray; /* Borde*/
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 5px; /* Espaciado interno */
+    background-color: rgb(84, 84, 84); /* Fondo gris claro */
+    color: rgb(255, 255, 255); /* Color del texto */
+}
+
+QLineEdit:focus {
+    border: 2px solid #45a049; /* Cambio de color del borde al obtener el foco */
+}
+d</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>160</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>Nombre del producto:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_pre">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>189</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    border: 2px solid gray; /* Borde*/
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 5px; /* Espaciado interno */
+    background-color: rgb(84, 84, 84); /* Fondo gris claro */
+       color: rgb(255, 255, 255); /* Color del texto */
+}
+
+QLineEdit:focus {
+    border: 2px solid #45a049; /* Cambio de color del borde al obtener el foco */
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>200</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>Precio del producto:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>120</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>ID del producto:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_det">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>150</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 198, 145);
+color: white;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>Agregar Detalles</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>iconos/agregar.png</normaloff>iconos/agregar.png</iconset>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tbl_detalles1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>330</y>
+     <width>611</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+	background-color: rgb(112, 112, 112);
+    color: #fffff8;
+border-radius: 10px;
+}
+
+QHeaderView::section {
+	background-color: rgb(85, 85, 85);
+    padding: 2px;
+    border: 1px solid #fffff8;
+    font-size: 9pt;
+}
+
+QTableWidget {
+    gridline-color: #fffff8;
+    font-size: 12pt;
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color: #646464;
+    border: 1px solid #fffff8;
+}</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Codigo_venta</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Producto_id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Producto_nombre</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Producto_precio</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Producto_cantidad</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Producto_Total</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="line_can_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>290</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    border: 2px solid gray; /* Borde*/
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 5px; /* Espaciado interno */
+    background-color: rgb(84, 84, 84); /* Fondo gris claro */
+    color: rgb(255, 255, 255); /* Color del texto */
+}
+
+QLineEdit:focus {
+    border: 2px solid #45a049; /* Cambio de color del borde al obtener el foco */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>301</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>Ingrese el codigo del producto que eliminara:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_eli">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>290</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255,255,255);
+color: black;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>iconos/x-mark.png</normaloff>iconos/x-mark.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Forte</family>
+     <pointsize>36</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>Agregar detalles:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
